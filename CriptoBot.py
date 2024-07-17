@@ -1,6 +1,6 @@
 class GestionBotTrading:
-    def __init__(self, api_key, api_secret):
-        self.api = Client(api_key, api_secret)
+    def __init__(self, api_key, api_secret, passphrase):
+        self.api = Client(api_key, api_secret. passphrase)
         self.bot_activo = False
 
     def arrancar_bot(self):
